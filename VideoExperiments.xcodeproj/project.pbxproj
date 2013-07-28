@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF0E017EBCF925CBAFDF9E1 /* rotate.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E953646C7E15C46D098F /* rotate.cc */; };
+		5AF0E9E8C17524F50A84BB5F /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EB818A003A6F1AAA4CDF /* main.cc */; };
+		5AF0EF01BACDFD80ACC2333E /* decode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E1375AA033AA8BCDECD8 /* decode.cc */; };
+		63D807FF17A44A6200429C6C /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D807FE17A44A6200429C6C /* SFML.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AF0E394CEDD4D0E5B05BAE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AF0E052C6ADA995F6B1254B /* VideoExperiments */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = VideoExperiments; path = vidtest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF0E1375AA033AA8BCDECD8 /* decode.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decode.cc; sourceTree = "<group>"; };
+		5AF0E2697497B5DE31D9CC54 /* decode.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = decode.hh; sourceTree = "<group>"; };
+		5AF0E953646C7E15C46D098F /* rotate.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rotate.cc; sourceTree = "<group>"; };
+		5AF0E98CD006A51A55296CB9 /* testpattern.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = testpattern.hh; sourceTree = "<group>"; };
+		5AF0EB818A003A6F1AAA4CDF /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		5AF0EE05802D5472B97C5678 /* vidtest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = vidtest.1; sourceTree = "<group>"; };
+		5AF0EECDBDF32E8066630CA1 /* types.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = types.hh; sourceTree = "<group>"; };
+		5AF0EED84D372B62CB805B12 /* rotate.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rotate.hh; sourceTree = "<group>"; };
+		63D807FE17A44A6200429C6C /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF0E79BD7D233680FB229F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D807FF17A44A6200429C6C /* SFML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF0E297C842616F26330A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0E052C6ADA995F6B1254B /* VideoExperiments */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF0EA77D8A0AA5DDB6BBCA3 /* VideoExperiments */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0EB818A003A6F1AAA4CDF /* main.cc */,
+				5AF0EE05802D5472B97C5678 /* vidtest.1 */,
+				5AF0E98CD006A51A55296CB9 /* testpattern.hh */,
+				5AF0E1375AA033AA8BCDECD8 /* decode.cc */,
+				5AF0E2697497B5DE31D9CC54 /* decode.hh */,
+				5AF0EECDBDF32E8066630CA1 /* types.hh */,
+				5AF0E953646C7E15C46D098F /* rotate.cc */,
+				5AF0EED84D372B62CB805B12 /* rotate.hh */,
+			);
+			path = VideoExperiments;
+			sourceTree = "<group>";
+		};
+		5AF0EF886A18A031B1FCF459 = {
+			isa = PBXGroup;
+			children = (
+				63D807FE17A44A6200429C6C /* SFML.framework */,
+				5AF0E297C842616F26330A3A /* Products */,
+				5AF0EA77D8A0AA5DDB6BBCA3 /* VideoExperiments */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF0EB82FE0185430D788100 /* vidtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF0E6022091C797843E20AA /* Build configuration list for PBXNativeTarget "vidtest" */;
+			buildPhases = (
+				5AF0E78FC93B7A6B51BA7FEB /* Sources */,
+				5AF0E79BD7D233680FB229F0 /* Frameworks */,
+				5AF0E394CEDD4D0E5B05BAE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vidtest;
+			productName = VideoExperiments;
+			productReference = 5AF0E052C6ADA995F6B1254B /* VideoExperiments */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF0E458E1AB05E9572A72A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "David Whetstone";
+			};
+			buildConfigurationList = 5AF0EAA336FF185793ED283D /* Build configuration list for PBXProject "VideoExperiments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AF0EF886A18A031B1FCF459;
+			productRefGroup = 5AF0E297C842616F26330A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF0EB82FE0185430D788100 /* vidtest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF0E78FC93B7A6B51BA7FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF0E9E8C17524F50A84BB5F /* main.cc in Sources */,
+				5AF0EF01BACDFD80ACC2333E /* decode.cc in Sources */,
+				5AF0E017EBCF925CBAFDF9E1 /* rotate.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AF0E996A941A7614025C361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AF0EAE0C0CE2058B764337F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"sfml-graphics",
+					"-framework",
+					"sfml-system",
+					"-framework",
+					"sfml-window",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AF0EDD483918178E9DE7B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"sfml-graphics",
+					"-framework",
+					"sfml-system",
+					"-framework",
+					"sfml-window",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AF0EE65AFC8D102D8D323DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF0E6022091C797843E20AA /* Build configuration list for PBXNativeTarget "vidtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF0E996A941A7614025C361 /* Release */,
+				5AF0EE65AFC8D102D8D323DE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF0EAA336FF185793ED283D /* Build configuration list for PBXProject "VideoExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF0EDD483918178E9DE7B6E /* Release */,
+				5AF0EAE0C0CE2058B764337F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF0E458E1AB05E9572A72A2 /* Project object */;
+}
